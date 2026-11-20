@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VASX Launcher</title>
+    <!-- Шрифт Play -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <canvas id="bgCanvas"></canvas>
+
+    <div class="layout">
+        
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <div class="logo">VASX</div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Поиск игры...">
+                </div>
+                <div class="filter-pills">
+                    <button class="pill active" data-filter="all">Все</button>
+                    <button class="pill" data-filter="steam">Steam</button>
+                    <button class="pill" data-filter="epic">Epic Games</button>
+                    <button class="pill" data-filter="xbox">Xbox</button>
+                </div>
+            </div>
+
+           
+            <div class="sidebar-list" id="sidebarList">
+               
+            </div>
+        </aside>
+
+        
+        <main class="main-content">
+            <section class="content-section">
+                <div class="section-header">
+                    <h2>Установлено на вашем ПК</h2>
+                    <span class="count-badge" id="gamesCount">0 игр</span>
+                </div>
+                <div class="games-grid" id="installedGrid">
+                   
+                </div>
+            </section>
+
+            
+            <section class="content-section">
+                <div class="section-header">
+                    <h2>Недавно запускались</h2>
+                </div>
+                <div class="recent-grid" id="recentGrid">
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="modal-overlay" id="accountModal">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3>Переключение аккаунтов Steam</h3>
+                <button class="modal-close" id="closeModal">✕</button>
+            </div>
+            <div class="modal-list" id="modalAccountsList">
+            </div>
+        </div>
+    </div>
+
+    <script src="three.min.js"></script>
+    <script src="bg-3d.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

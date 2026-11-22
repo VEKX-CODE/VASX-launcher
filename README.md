@@ -6,7 +6,7 @@
 [![Size: 3.27MB](https://img.shields.io/badge/Size-3.27%20МБ%20(Один%20файл)-brightgreen)](#-скачать-windows-standalone)
 ### 📥 Скачать (Windows Standalone)
 Не требует установки, разархивации или сторонних программ. Достаточно скачать один исполняемый `.exe` файл:
-👉 **[Скачать VASX Launcher (Один .exe файл)](https://github.com/VEKX-CODE/VASX-launcher/releases/download/RELEASE/VASX-Windows-x64.exe)**  
+👉 **[Скачать VASX Launcher](https://github.com/VEKX-CODE/VASX-launcher/releases/download/RELEASE/VASX-Windows-x64.exe)**  
 📦 **[Перейти на страницу релиза на GitHub](https://github.com/VEKX-CODE/VASX-launcher/releases/tag/RELEASE)**
 1. Скачайте **`VASX-Windows-x64.exe`** (~3.27 МБ).
 2. Запустите файл. Весь интерфейс, шейдеры и движок уже вшиты внутрь файла.
